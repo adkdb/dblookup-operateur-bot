@@ -1,0 +1,20 @@
+{
+  "name": "zlookup-operateur",
+  "version": "1.0.0",
+  "description": "Bot Discord de lookup opérateur",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 index.js",
+    "dev": "nodemon --max-old-space-size=8192 index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^9.4.3",
+    "JSONStream": "^1.3.5",
+    "csv-parse": "^5.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
+
